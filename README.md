@@ -2,90 +2,59 @@
 
 ### Computer Engineering Graduate | Full-Stack Developer
 
-I specialize in building scalable web applications using the **PERN Stack** (PostgreSQL, Express, React, Node.js). Currently focused on rapid development, secure API architectures, and multi-tenant systems.
+Valkenburgh Margin | 09295768675 | Antipolo, Rizal | https://www.linkedin.com/in/vmargin/ | https://github.com/vmargin
+
+I build **scalable web applications** with the **PERN stack** (PostgreSQL, Express, React, Node.js) and TypeScript. I focus on **multi-tenant systems**, **secure API design**, and **clean, maintainable code**.
 
 ---
 
 ## 🛠 Tech Stack
 
-**Frontend:**
-- React, Tailwind CSS, Vite
-- Axios, React Hooks
-
-**Backend:**
-- Node.js, Express
-- Prisma ORM
-- JWT Authentication
-- bcryptjs
-
-**Database:**
-- PostgreSQL (Supabase)
-
-**Cloud/DevOps:**
-- Railway/Render (Backend Deployment)
-- Vercel (Frontend Deployment)
-- Supabase (Database Hosting)
-- Git, GitHub Actions
-
-**Tools:**
-- Postman, pgAdmin
-- Docker (Local Development)
+| Layer      | Technologies |
+|-----------|--------------|
+| **Frontend** | React 19 (Vite), TypeScript, Tailwind CSS, Axios, TanStack Query |
+| **Backend**  | Node.js, Express 5, TypeScript, Prisma ORM|
+| **Database** | PostgreSQL (e.g. Supabase) |
+| **Auth**     | JWT, bcryptjs |
+| **Tools** | Postman, pgAdmin, Docker | 
 
 ---
 
 ## 🚀 Featured Projects
 
-### [Multi-Tenant Asset Manager](https://github.com/vmargin/multi-tenant-asset-manager)
-A production-ready asset management system with multi-tenant architecture. Features include:
-- 🔐 JWT-based authentication with secure password hashing
-- 🏢 Complete data isolation between organizations
-- 📦 Full CRUD operations for assets
-- 🎨 Modern React UI with Tailwind CSS
-- 🚀 Deployed on Railway (backend) and Vercel (frontend)
-- 🔒 Input validation and security best practices
+### [Arctic — Aircon Service Manager](https://github.com/vmargin/aircon-service) | [Demo](https://aircon-service-frontend.vercel.app/)
 
-**Tech:** React, Node.js, Express, Prisma, PostgreSQL, Supabase, Railway, Vercel
+A **multi-tenant** air conditioning service operations manager with **role-based branch scoping** and **audit logging**.
 
-### [Enterprise Task Management System](https://github.com/vmargin/task-manager-api)
-A full-stack productivity tool deployed on **Vercel** & **Supabase**. Features JWT authentication, persistent relational storage, and a responsive React UI.
+- 🔐 **JWT auth** with bcrypt; typed `req.user` (userId, orgId, role, branchId)
+- 🏢 **Data isolation** by organization and branch (Admin vs Branch Leader)
+- 📋 **Bookings → Invoices → Payments** with business rules (e.g. no completion without invoice)
+- 👷 **Technician assignment** scoped to branch; soft-delete with audit trail
+- 🌐 **Public API** for branch list and booking submission (find/create customer by phone)
+- 📝 **AuditLog** for bookings, invoices, and technician actions
+- ✅ **Zod validation** on all inputs; CORS and security-conscious config
+
+**Tech:** TypeScript, React, Express, Prisma, PostgreSQL, TanStack Query, Tailwind
+
+### Multi-Tenant Asset Manager | [GitHub](https://github.com/vmargin/multi-tenant-asset-manager) | [Live Demo]( https://multi-tenant-asset-manager.vercel.app/)
+
+Production-ready asset management with full multi-tenant architecture, JWT auth, and CRUD with org isolation. Deployed on Railway + Vercel.
+
+**Tech:** React, Node.js, Express, Prisma, PostgreSQL, Supabase
+
+### Task Management System | [GitHub](https://github.com/vmargin/task-manager-api) | [Live Demo]( https://task-manager-client-ivory-kappa.vercel.app)
+
+Full-stack productivity tool with JWT auth, relational storage, and responsive React UI. Deployed on Vercel & Supabase.
 
 **Tech:** TypeScript, React, Node.js, PostgreSQL
 
-### [Secure Auth & API Boilerplate](https://github.com/vmargin/task-manager-client)
-A production-ready backend architecture using Express and Prisma, optimized for secure user sessions and environment-based configuration.
-
-**Tech:** JavaScript, Express, Prisma
-
 ---
 
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vmargin&show_icons=true&theme=radical&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vmargin&layout=compact&theme=radical&hide_border=true)
-
----
-
-## 🔥 Current Focus
-
-- Building scalable multi-tenant applications
-- Implementing security best practices
-- Learning cloud deployment strategies
-- Contributing to open-source projects
-
----
-
-## 📫 Connect with me
+## 📫 Connect
 
 - **GitHub:** [@vmargin](https://github.com/vmargin)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/vmargin/)
+- **LinkedIn:** [vmargin](https://www.linkedin.com/in/vmargin/)
 
 ---
 
-## 💡 Fun Fact
-
-I'm passionate about writing clean, maintainable code and building applications that solve real-world problems. Always learning and improving! 🚀
-
----
-
-*Last updated: January 2025*
+_Last updated: July 2026_
