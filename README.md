@@ -1,60 +1,25 @@
-# Hi, I'm vmargin 👋
+# Valkenburgh Margin
 
-### Computer Engineering Graduate | Full-Stack Developer
+**Software Developer | Java, Spring Boot & Full-Stack Applications**
 
-Valkenburgh Margin | 09295768675 | Antipolo, Rizal | https://www.linkedin.com/in/vmargin/ | https://github.com/vmargin
+[Official portfolio](https://vm.marginvalkenburgh.chatgpt.site) · [LinkedIn](https://www.linkedin.com/in/vmargin/)
 
-I build **scalable web applications** with the **PERN stack** (PostgreSQL, Express, React, Node.js) and TypeScript. I focus on **multi-tenant systems**, **secure API design**, and **clean, maintainable code**.
+Computer Engineering graduate building Java applications and full-stack web projects. My project work spans application logic, relational data, and user-facing workflows using Java, Spring Boot, React, TypeScript, Express, and PostgreSQL. I’m seeking a junior software development role focused on Java, backend systems, or full-stack applications.
 
----
+## Featured projects
 
-## 🛠 Tech Stack
+- **[CASH-G Banking App](https://github.com/vmargin/banking-app)** — Java, Swing, JDBC, PostgreSQL, and JUnit. An educational banking simulator built with synthetic account data; it is not intended for real financial accounts.
+- **[CASH-G Web Evolution](https://github.com/vmargin/banking-app-v2)** — A separate Spring Boot and Thymeleaf version of the Java project. See the repository for its current implementation status.
+- **[ARCTIC — Aircon Service Manager](https://github.com/vmargin/aircon-service)** — A four-branch service workflow connecting bookings, technician assignments, invoices, and payments. My contribution focused on requirements, workflow definition, relational data architecture, and deployment; implementation was AI-assisted.
+- **[Multi-Tenant Asset Manager](https://github.com/vmargin/multi-tenant-asset-manager)** — A full-stack inventory project with organization-scoped asset operations. This is portfolio software, not a production asset-management service.
 
-| Layer      | Technologies |
-|-----------|--------------|
-| **Frontend** | React 19 (Vite), TypeScript, Tailwind CSS, Axios, TanStack Query |
-| **Backend**  | Node.js, Express 5, TypeScript, Prisma ORM|
-| **Database** | PostgreSQL (e.g. Supabase) |
-| **Auth**     | JWT, bcryptjs |
-| **Tools** | Postman, pgAdmin, Docker | 
+## Technologies used in my projects
 
----
+Java · Spring Boot · Swing · JDBC · TypeScript · JavaScript · React · Node.js · Express · PostgreSQL · Prisma · JUnit · Git
 
-## 🚀 Featured Projects
+## Education and training
 
-### [Arctic — Aircon Service Manager](https://github.com/vmargin/aircon-service) | [Demo](https://aircon-service-frontend.vercel.app/)
+- **BS Computer Engineering**, Polytechnic University of the Philippines — 2020
+- **Java Programming NC III training**, CIICC — 2026
 
-A **multi-tenant** air conditioning service operations manager with **role-based branch scoping** and **audit logging**.
-
-- 🔐 **JWT auth** with bcrypt; typed `req.user` (userId, orgId, role, branchId)
-- 🏢 **Data isolation** by organization and branch (Admin vs Branch Leader)
-- 📋 **Bookings → Invoices → Payments** with business rules (e.g. no completion without invoice)
-- 👷 **Technician assignment** scoped to branch; soft-delete with audit trail
-- 🌐 **Public API** for branch list and booking submission (find/create customer by phone)
-- 📝 **AuditLog** for bookings, invoices, and technician actions
-- ✅ **Zod validation** on all inputs; CORS and security-conscious config
-
-**Tech:** TypeScript, React, Express, Prisma, PostgreSQL, TanStack Query, Tailwind
-
-### Multi-Tenant Asset Manager | [GitHub](https://github.com/vmargin/multi-tenant-asset-manager) | [Live Demo]( https://multi-tenant-asset-manager.vercel.app/)
-
-Production-ready asset management with full multi-tenant architecture, JWT auth, and CRUD with org isolation. Deployed on Railway + Vercel.
-
-**Tech:** React, Node.js, Express, Prisma, PostgreSQL, Supabase
-
-### Task Management System | [GitHub](https://github.com/vmargin/task-manager-api) | [Live Demo]( https://task-manager-client-ivory-kappa.vercel.app)
-
-Full-stack productivity tool with JWT auth, relational storage, and responsive React UI. Deployed on Vercel & Supabase.
-
-**Tech:** TypeScript, React, Node.js, PostgreSQL
-
----
-
-## 📫 Connect
-
-- **GitHub:** [@vmargin](https://github.com/vmargin)
-- **LinkedIn:** [vmargin](https://www.linkedin.com/in/vmargin/)
-
----
-
-_Last updated: July 2026_
+For project walkthroughs, source links, and contact details, visit the [official portfolio](https://vm.marginvalkenburgh.chatgpt.site).
